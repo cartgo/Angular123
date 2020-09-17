@@ -1,0 +1,21 @@
+<p>/////////////component1 works!/////////////////////</p>
+<!-- implement the 4 kinds of data bindings -->
+<!-- interpolation -->
+<span>{{Title}}</span>
+<!-- interpolation end -->
+<br>
+<br>
+<!-- Property Binding -->
+<div [style.color]="isRed"> This is reddd. color blinded by 【property binding】 </div>
+<!-- Property Binding end -->
+<br>
+<br>
+<!-- Event Binding -->
+<button (click)="dontclick()">decided by【event binding 】</button>
+<!-- Event Binding end-->
+<br>
+<br>
+<!-- two way binding -->
+<input type="text" [(ngModel)]="name" /> happy birthday to {{name}}!；
+<br>                —— best wishes from 【two way binding】;
+<!-- two way binding end -->
