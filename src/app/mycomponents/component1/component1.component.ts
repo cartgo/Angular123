@@ -11,10 +11,11 @@ export class Component1Component implements OnInit {
  
   }
   Title = 'Hello Mingyans World, & this is by 【interpolation binding】';
+  name:string = "MINGYAN???"
 
-  protected isRed = "green";
-  protected i = 0;
-  protected x;
+   isRed = "green";
+   i = 0;
+   x;
   dontclick(){
     this.i++;
     if (this.i%2 == 0){this.x = "yes"}
